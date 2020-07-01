@@ -1,0 +1,1811 @@
+/* ///////////////全デバイス共通スタイル＆スマホ向け/////////////////// */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 ;
+}
+
+header {
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  width: 100%;
+  height: 50px;
+}
+
+.header-in {
+  
+  margin-left: 5px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-in-logo {
+  position: absolute;
+  top: 15px;
+  width: 100px;
+  height: 35px;
+}
+
+.header-in-text {
+  margin: 0;
+  font-size: 10px;
+}
+
+.isaratop_title {
+  margin: 0;
+}
+
+/* .btn {
+  font-size: 10px;
+  border: 1px solid #da6b64;
+  background-color: #da6b64;
+  border-radius: 50px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 5px;
+} */
+#button4 {
+  font-size: 10px;
+  border: inherit;
+  background-color: inherit;
+  border-radius: 50px;
+  color: white;
+}
+.btn {
+  display: grid;
+  text-align: center;
+  background-color: #da6b64;
+  color: white;
+  padding: 6px;
+  font-size: 22px;
+}
+#button4:focus {
+  outline: 0;
+}
+
+.btn_text {
+  text-decoration:none;
+  color: white;
+}
+
+.answer_picture {
+  width: 200px;
+}
+
+.flow_title_img {
+  width: 400px;
+}
+
+.flow_contents_img {
+  width: 350px;
+}
+
+.message_content_img {
+  width: 400px;
+}
+
+.isaratop {
+  background-image: url(img/main.jpg);
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+.isaratop_center {
+  width: 58%;
+  margin: auto;
+  padding-top: 80px;
+}
+
+.isaratop_title {
+  font-size: 14px;
+  text-align: center;
+}
+
+.isaralogo_large {
+  width: 200px;
+  height: 85px;
+  
+}
+
+.isaratop_txt {
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.isaralogoBox {
+text-align: center;
+}
+
+.ask {
+  background-color: #ebb94d;
+}
+
+.ask_txt {
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.ask-point {
+  text-align: center;
+  background-color: #f9f2f4;
+  border-radius: 3px;
+  width: 80%;
+  margin: auto;
+  color: #c7254e;
+  font-weight: 600;
+}
+
+.btn2 {
+  text-align: center;
+}
+#button3 {
+  padding: 30px 0;
+  border: 1px solid #da6b64;
+  background-color: #da6b64;
+  width: 80%; 
+  border-radius: 50px;
+  margin: 15px auto;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+#button3:focus {
+  outline: 0;
+}
+.btn2_text {
+  text-decoration:none;
+  color: white;
+  font-size: 22px;
+}
+
+.ask_text-bottom {
+  font-size: 13px;
+  width: 66%;
+  margin: 10px auto;
+  text-align: center;
+  color: white;
+}
+
+.sns {
+  margin: auto;
+  width: 50%;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/* freedom */
+
+.freedom {
+  background-image: url(img/introbottom.jpg);
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  padding: 30px 0;
+  position: relative;
+}
+
+.txtbox_title {
+  font-size: 16px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+
+.freedom-txt {
+  font-size: 12px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.txtbox {
+  position: relative;
+  width: 80%;
+  margin: auto;
+
+}
+
+.txtbox::before,
+.txtbox::after {
+position: absolute;
+content: '';
+width: 30px;
+height: 30px;
+}
+
+.txtbox::before {
+  top: 0;
+  left: 0;
+  border-top: 4px solid #ebb94d;
+  border-left: 4px solid #ebb94d;
+}
+.txtbox::after {
+  right: 0;
+  bottom: 0;
+  border-right: 4px solid #ebb94d;
+  border-bottom: 4px solid #ebb94d;
+}
+
+.underline {
+  background: linear-gradient(transparent 70%, #ebb94d 50%);
+  font-weight: 600;
+}
+
+.about-btn {
+background-color: #ebb94d;
+width: 60px;
+border-radius: 50%;
+padding: 5px;
+position: absolute;
+left: 50%;
+transform: translate(-50%);
+color: white;
+}
+
+/* about */
+.about {
+  background-color: #fef5e0;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.about_textbox_title {
+font-size: 16px;
+text-align: center;
+padding: 20px;
+margin: 0;
+}
+
+.about_text {
+  font-weight: 600;
+  font-size: 16px;
+  opacity: 0.8;
+  width: 55%;
+  margin: 10px auto;
+}
+
+.about-box {
+  background-color: white;
+  margin: 20px;
+  border: 2px solid #ebb94d;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5px;
+  text-align: center;
+}
+
+.about_box_text {
+  font-size: 15px;
+  width: 41%;
+  margin: 10px auto;
+}
+
+img {
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+}
+
+.picturebox_img {
+  height: 60px;
+}
+
+.picturebox > p {
+  font-size: 10px;
+}
+
+/* about_second */
+.about-second {
+background-image: url(img/aboutsecondbg.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.about-second_title {
+  margin: 0 auto;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  width: 65%;
+}
+
+.about-second_text {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  width: 45%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.about-second_text .yellow {
+  color: #ebb94d;
+}
+
+.about-second-step {
+  background-color: white;
+  width: 50%;
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.about-second-txt2 {
+  background-color: #ebb94d;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+
+}
+
+.about-second-txt3, 
+.about-second-txt4 {
+  font-weight: 600;
+}
+
+.about-second-flex {
+  padding: 10px;
+}
+
+/* skilluop */
+
+.skillup {
+  background-color: #016ea9;
+}
+
+.skillup_title {
+  font-size: 14px;
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.skillup .yellow {
+  color: #ebb94d;
+}
+
+/* study_overview */
+.study_overview_title > h2 {
+  font-size: 18px;
+  width: 50%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.study_overview_title .sub_text {
+  font-size: 14px;
+}
+
+.study_overview_title > p {
+  font-size: 16px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.study_flex {
+  width: 85%;
+  display: flex;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.study_picturebox {
+  margin: 5px;
+}
+
+.study_picturebox_img {
+  width: 100%;
+}
+
+.study_overview_bottom {
+  text-align: center;
+  font-weight: 600;
+}
+
+/* merit */
+.merit {
+  background-color: #fef5e0;
+  padding-top: 30px;
+}
+
+.merit_title {
+  text-align: center;
+  position: relative;
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+}
+
+.merit_title::before,
+.merit_title::after {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 50px;
+}
+
+.merit_title::before {
+  top: 0;
+  left: 0;
+  border-top: 4px solid #ebb94d;
+  border-left: 4px solid #ebb94d;
+}
+.merit_title::after {
+  bottom: 0;
+  right:  0;
+  border-bottom: 4px solid #ebb94d;
+  border-right: 4px solid #ebb94d;
+}
+
+.merit_title_top {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.merit_title_bottom {
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.merit_list {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.merit_list_img {
+  width: 90%;
+  height: fit-content;
+}
+
+.merit_list_text {
+  width: 80%;
+  margin: 10px auto;
+  text-align: left;
+}
+
+.merit_contents {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  border: 2px solid #ebb94d;
+  padding: 10px;
+}
+
+.merit_contents_title {
+  color: #ebb94d;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+
+.merit_contents_text {
+  font-weight: 600;
+  width: 80%;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.merit_contents_bottom {
+  font-size: 12px;
+  text-align: center;
+}
+
+.merit_text > p {
+  font-size: 12px;
+  text-align: center;
+  margin: 10px auto 0;
+  width: 80%;
+  padding-bottom: 10px;
+}
+
+/* member */
+.member {
+  background-image: url(img/teacherbg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 20px;
+}
+
+.member_top_title {
+  margin: 0;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+.member_top_text {
+  color: white;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.member_profile_top_img {
+  width: 120px;
+  border-radius: 50%;
+  position: absolute;
+  top: -18%;
+  left: 50%;
+  
+  transform: translate(-50%, -50%);
+
+}
+.member_profile_bottom_img {
+  width: 120px;
+  position: absolute;
+  top: -18%;
+  left: 50%;
+  
+  transform: translate(-50%, -50%);
+  
+
+}
+
+.member_profile_top,
+.member_profile_bottom {
+  border: 2px solid white;
+  position: relative;
+  margin: 140px auto 0;
+  width: 90%;
+  padding: 10px;
+}
+
+
+
+.member_profile_text,
+.member_profile_name {
+  text-align: center;
+  color: white;
+}
+
+.member_profile_text-contents,
+.member_profile_text-supplement {
+  color: white;
+}
+
+/* q&a */
+.question {
+  background-color: #ebb94d;
+  position: relative;
+  padding: 90px 0 50px;
+}
+
+.question_logo {
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  color: #ebb94d;
+  position: absolute;
+  left: 50%;
+  top: 45px;
+  transform: translate(-50%, -50%);
+}
+
+.question_logo_title {
+  margin: 0 auto;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  width: 90%;
+}
+
+.question_logo_title::before,
+.question_logo_title::after {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+}
+
+.question_logo_title::before {
+  top: 0;
+  left: 0;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+
+}
+.question_logo_title::after {
+  right: 0;
+  bottom: 0;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+
+}
+
+.answer {
+  padding-bottom: 40px;
+}
+
+.answer_top_title {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.triangle {
+  position: absolute;
+  bottom: -32%;
+  left: 50%;
+  border-top: 25px solid #ebb94d;
+  border-right: 25px solid transparent;
+  border-left: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  transform: translate(-50%,-50%);
+}
+
+.answer_top_text {
+  font-weight: 600;
+}
+
+.answer_top_text,
+.answer_top_text_message {
+  text-align: center;
+}
+
+.answer_top_text_message {
+  font-size: 12px;
+  margin: auto;
+  width: 80%;
+}
+
+.answer_picture {
+  width: 30%;
+  height: 30%;
+  margin: 10px;
+  border: 2px solid #ebb94d;
+}
+
+.answerBox {
+  display: flex;
+}
+
+.answerMessage_right {
+  font-style: italic;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+/* learn */
+.learn {
+  background-image: url(img/classbg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+.learn_top_title,
+.learn_top_text  {
+  color: white;
+  text-align: center;
+  
+}
+
+.learn_top_title {
+  margin: 0;
+  font-size: 20px;
+  
+}
+
+.learn_top_text {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.learn_list_title {
+  font-size: 16px;
+  color: white;
+  background-color: #016ea9;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.learn_list_box {
+  background-color: white;
+  list-style: none;
+  width: 90%;
+  margin: 10px auto;
+  text-align: center;
+  padding-left: 0;
+  border: 1px solid #016ea9;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.learn_list_box > li {
+  border-bottom: 1px dotted #e5e5e5;
+}
+.learn_list_text {
+  padding: 5px;
+  font-size: 12px;
+  
+}
+
+.learn_bottom {
+  background-color: #016ea9;
+}
+
+.learn_bottom_text {
+  margin: 0;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* flow */
+.flow_contents {
+  padding-bottom: 20px;
+}
+
+.flow_title_text {
+  text-align: center;
+  font-size: 18px;
+  opacity: 0.8;
+  padding: 10px 0;
+}
+
+.flow_title_img {
+  display: none;
+}
+
+.flow_contents_left_img {
+  width: 40px;
+  height: 40px;
+}
+
+.flow_contents_list {
+  padding: 10px;
+  background-color: #fef5e0;
+  width: 90%;
+  margin: auto;
+}
+
+.flow_contents_left {
+  display: flex;
+}
+
+.flow_contents_left_text {
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+.flow_contents_left_text:hover {
+text-decoration: underline;
+cursor: pointer;
+}
+
+.flow_contents_right_text {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.flow_contents_right_supplement {
+  font-size: 12px;
+}
+
+.flowLine {
+  text-align: center;
+  margin: auto;
+}
+
+.flow_contents_img {
+  width: 70%;
+}
+
+/* place */
+
+.place_bg {
+  background-image: url(img/bangkokbg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 10px;
+}
+
+.place_bg_title {
+  font-size: 20px;
+  
+  text-align: center;
+  padding-top: 10px;
+}
+
+.place_bg_title-text {
+  font-size: 12px;
+}
+
+.place_bg_merit > p {
+  font-size: 12px;
+}
+
+.place_bg_merit-text {
+  font-weight: 600;
+}
+
+/* benefit */
+.benefit {
+  background-color: #f7c23c;
+  padding: 10px 0;
+}
+
+.benefit_title {
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.benefit_title-text {
+  width: 60%;
+  
+  text-align: center;
+  margin: 20px auto;
+}
+
+.benefit_title-text .white {
+  color: white;
+}
+
+.benefit_meritList {
+  border: 2px solid white;
+  width: 90%;
+  margin: 40px auto;
+  position: relative;
+  padding: 40px 0;
+
+}
+
+.benefit_meritList_top {
+  font-size: 20px;
+  width: 60%;
+  margin: auto;
+  font-weight: 600;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f7c23c;
+}
+
+.meritBox {
+  display: flex;
+  padding: 5px 10px 10px;
+  width: 90%;
+  margin: auto;
+}
+
+.meritBox_text {
+  font-size: 12px;
+  width: 80%;
+  margin-left: 20px;
+  color: white;
+}
+
+.circle {
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 60px;
+}
+
+.circle-text {
+  margin: 0;
+  padding: 0;
+  color: #f7c23c;
+  
+}
+
+.meritBox_text,
+.circle-text{
+  font-weight: 600;
+}
+
+/* volunteer */
+.volunteer {
+  background-image: url(img/specialdetail.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0;
+}
+
+.volunteer_title {
+  margin: 0 auto;
+  
+  text-align: center;
+  width: 50%;
+  font-size: 18px;
+}
+
+.volunteer_title,
+.volunteer_value_title,
+.volunteer_title-text,
+.volunteer_value-text {
+  color: white;
+  text-align: center;
+}
+
+.volunteer_title-text {
+  font-size: 14px;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.volunteer_value_title {
+  font-size: 20px;
+  width: 80%;
+  margin: auto;
+  padding: 10px 0;
+
+}
+
+.volunteer_value-text {
+  font-size: 14px;
+  width: 50%;
+  margin: auto;
+}
+
+.volunteer_value {
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.volunteer_value::before,
+.volunteer_value::after {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+}
+
+.volunteer_value::before {
+  top: 0;
+  left: 0;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+}
+
+.volunteer_value::after {
+  right: 0;
+  bottom: 0;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+/* messege */
+
+.message {
+  padding-top: 30px;
+}
+
+.message_title {
+  font-size: 18px;
+}
+
+.message_title-text {
+  font-size: 14px;
+  width: 50%;
+  padding: 30px 0 20px;
+  font-weight: 600;
+  opacity: 0.8;
+
+}
+
+.message_title,
+.message_title-text {
+  text-align: center;
+  margin: auto;
+}
+
+.message_content {
+  text-align: center;
+}
+
+.message_content_img {
+  width: 90%;
+
+}
+
+.message_content_text {
+  text-align: left;
+  padding: 10px;
+}
+
+/* form */
+.form {
+  background-color: #f7c23c;
+  padding: 35px 0;
+}
+.form_title,
+.form_title-text {
+  text-align: center;
+  opacity: 0.8;
+}
+.form_title-text {
+  font-weight: 600;
+}
+.form_text {
+  text-align: center;
+}
+.form_text_input {
+  padding: 10px 0;
+}
+.form_text_input-a,
+.form_text_input-coment-a {
+  width: 80%;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.form_text_input-coment-a {
+  height: 100px;
+}
+.form_text_button {
+  font-size: 20px;
+  color: white;
+  border: 1px solid #da6b64;
+  background-color: #da6b64;
+  border-radius: 50px;
+  text-align: center;
+  padding: 5px;
+  margin: auto;
+  width: 80%;
+}
+.formTest {
+  text-decoration: none;
+  
+}
+/* frequency */
+.frequency_title {
+  text-align: center;
+  font-size: 18px;
+  
+} 
+
+/* acordion */
+dt {
+  border: 1px solid #e5e5e5;
+  width: 95%;
+  margin: auto;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 15px;
+}
+dt:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.fa-question-circle {
+  color: #016ea9;
+}
+dd > p {
+  font-size: 12px;
+  font-weight: 600;
+  width: 90%;
+  padding: 10px 0;
+  margin: 0;
+}
+.frequency_title,
+dd > p {
+  opacity: 0.8;
+}
+.page-top {
+  position: relative;
+}
+
+.page-top > img {
+  width: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+}
+
+/* footer */
+.copyright {
+  text-align: center;
+  background-color: #ececec;
+  padding: 10px 0;
+}
+
+.copyright_top, 
+.copyright_bottom {
+  font-size: 12px;
+}
+.copyright .textBlue {
+  color: #016ea9;
+}
+
+.answerMessage_president {
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+#button2 {
+  display: none;
+}
+/* タブレット向け */
+@media screen and (min-width: 768px) {
+  .merit_list_img {
+    width: 50%;
+    margin: 20px auto;
+  }
+
+  .member {
+    padding-bottom: 50px;
+  }
+
+  .answerBox {
+    margin-top: 10px;
+  }
+  .answer_top_title {
+    font-size: 26px;
+  }
+  .answer_top_text_message {
+    width: 50%;
+  }
+  .answerMessage_right {
+    margin: 0 auto;
+    text-align: left;
+  }
+  .answerMessage_right_text {
+    font-size: 20px;
+  }
+
+  .learn_top_text {
+    padding-bottom: 30px;
+    font-size: 18px;
+  }
+  .learn_top_title {
+    font-size: 28px;
+  }
+  .learn_list_box {
+    width: 80%;
+    border: 2px solid #016ea9;
+  }
+  .learn_list_text {
+    padding: 0;
+  }
+  .learn_list_box > li {
+    height: 50px;
+    line-height: 50px;
+  }
+  .learn_bottom_text {
+    padding: 25px 0; 
+  }
+
+  .flow_title_text {
+    font-size: 24px;
+  }
+
+  .place_bg {
+    padding: 50px 20px;
+  }
+  .place_bg_title {
+    margin: 0;
+    font-size: 26px;
+    padding-top: 0;
+  }
+  .place_bg_merit {
+    font-weight: 600;
+  }
+  .place_bg_merit > p {
+    font-size: 16px;
+  }
+  .place_bg_merit-text {
+    font-size: 16px;
+  }
+
+  .benefit_title {
+    font-size: 24px;
+    opacity: 0.8;
+  }
+  .benefit_title-text {
+    padding-bottom: 35px;
+  }
+  .meritBox {
+    padding: 15px 10px 10px
+  }
+
+  .volunteer {
+    padding: 50px 0;
+  }
+  .volunteer_title {
+    font-size: 24px;
+    width: 60%;
+  }
+  .volunteer_title-text {
+    margin: 20px auto
+  }
+  .volunteer_value {
+    font-size: 22px;
+  }
+  .volunteer_value-text {
+    padding-top: 30px;
+
+  }
+  .volunteer_title-text,
+  .volunteer_value-text {
+    font-weight: 600;
+  }
+  .volunteer_value_title {
+    padding: 20px 0;
+  }
+
+  .message_title {
+    font-size: 24px;
+  }
+  .message_title-text {
+    font-size: 16px;
+    width: 35%;
+  }
+  .message_content_text {
+    padding: 10px 10px 50px;
+    width: 90%;
+    margin: auto;
+  }
+  .message_content_text_list {
+    margin: 35px 0;
+  }
+
+  .form_text_button {
+    margin: 30px auto;
+    font-size: 25px;
+    padding: 10px;
+    letter-spacing: 20px;
+  }
+  .form_text_input-a {
+    height: 50px;
+  }
+  .form_text_input-coment-a {
+    margin-top: 30px;
+  }
+
+  .frequency_title {
+    margin: 30px auto;
+    font-size: 24px;
+  }
+
+  dt {
+    font-size: 18px;
+  }
+  dd > p {
+    font-size: 16px;
+  }
+}
+
+/* PC向け */
+@media screen and (min-width: 1024px) {
+  header {
+    height: 60px;
+  }
+  .header-in-logo {
+    top: 10px;
+    width: 130px;
+    height: 40px;
+  }
+  .header-in-text {
+    position: absolute;
+    left: 120px;
+    top: 25px;
+    font-size: 12px;
+    margin: 5px 15px;
+    font-weight: 600;
+  }
+  .btn {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    display: none;
+  }
+  #button2 {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #da6b64;
+    background-color: #da6b64;
+    color: white;
+    cursor: pointer;
+  }
+  #button2:focus, 
+  #button3:focus {
+    outline:0;
+  }
+  #button4 {
+    display: none;
+  }
+  #button3 {
+    width: 80%;
+    border: 1px solid #da6b64;
+    background-color: #da6b64;
+    border-radius: 50px;
+    text-align: center;
+    margin: 15px auto;
+    padding: 30px 0;
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+  }
+  .btn2 {
+    background-color: inherit;
+    border: inherit;
+    padding: 0;
+  }
+  .btn_text {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .isaratop {
+    padding: 50px 0;
+  }
+  .isaratop_title {
+    font-size: 24px;
+  }
+  .isaratop_txt {
+    font-size: 16px;
+  }
+  .isaralogo_large {
+    width: 250px;
+    height: 100px;
+    margin: 20px 0;
+  }
+  
+  .ask {
+    padding: 25px 0px;
+  }
+  .ask_txt {
+    font-size: 16px;
+  }
+  .ask-point {
+    margin: 10px auto;
+    width: 40%;
+  }
+  .ask_text-bottom {
+    font-size: 18px;
+    margin: 20px auto;
+  }
+
+  .freedom {
+    background-size: cover;
+    height: 650px;
+  }
+  .txtbox_title {
+    font-size: 24px;
+    width: 80%;
+    padding: 40px 0;
+  }
+  .freedom-txt {
+    font-size: 16px;
+    width: 60%;
+  }
+  .freedom_text {
+    margin: 10px 0;
+  }
+
+  .about-btn {
+    top: 95%;
+    width: 80px;
+    height: 80px;
+    line-height: 44px;
+    text-align: center;
+  }
+
+  .about_textbox_title {
+    margin: 25px 0;
+    font-size: 24px;
+    padding: 35px 0;
+    opacity: 0.8;
+  }
+
+  .about_text {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .about-box {
+    width: 95%;
+    margin: 20px auto;
+    padding: 25px 0;
+  }
+
+  .about-second {
+    text-align: center;
+  }
+  .about-second_title {
+    font-size: 24px;
+  }
+  .about-second_text {
+    font-size: 16px;
+    width: 50%;
+  }
+  .about-second-txt2 {
+    width: 65%;
+    color: white;
+    font-weight: 600;
+  }
+  .about-second-step {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    width: 40%;
+  }
+  .about-second-flex {
+    padding: 20px 0;
+  }
+
+  .skillup_title {
+    font-size: 16px;
+    padding: 30px 0;
+  }
+
+  .study_overview_title > h2 {
+    font-size: 24px;
+    opacity: 0.8;
+    margin: 50px auto 30px;
+  }
+  .study_overview_title > p {
+    margin: auto;
+  }
+  .study_picturebox_img {
+    width: 90%;
+    margin: 25px 0;
+  }
+  .study_overview_bottom {
+  margin-bottom: 30px;
+  }
+  .study_flex {
+    width: 70%;
+  }
+
+  .merit_title {
+    padding: 20px;
+  }
+  .merit_title_top {
+    font-size: 18px;
+  }
+  .merit_title_bottom {
+    font-size: 25px;
+    margin: 0;
+  }
+  .merit_title::before,
+  .merit_title::after {
+    width: 40px;
+  }
+  .merit_list_img {
+    width: 35%;
+  }
+  .merit_contents_title {
+    font-size: 24px;
+  }
+  .merit_contents_text {
+    font-size: 16px;
+    opacity: 0.8;
+  }
+  .merit_contents_bottom {
+    font-size: 16px;
+    width: 80%;
+    margin: 20px auto 0;
+    text-align: center;
+    opacity: 0.8;
+  }
+  .merit_contents {
+  padding: 25px 0;
+  }
+  .merit_text > p {
+    width: 85%;
+    padding: 20px 0;
+  }
+
+  .about-second-flex {
+    display: flex;
+  }
+  .about-second-step {
+    width: 30%;
+    
+  }
+
+  .skillup_title {
+    font-size: 18px;
+    
+  }
+
+  .merit_list {
+    display: flex;
+    width: 95%;
+    margin: 10px auto;
+  }
+  .merit_list_title {
+    color: #ebb94d;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .merit_list_text {
+    width: 80%;
+    letter-spacing: 1px;
+  }
+  .merit_list_img {
+    width: 300px;
+  }
+  .merit_textBox {
+    
+    margin: auto;
+  }
+  .merit-picture {
+    margin: 0 10px;
+  }
+  .merit_contents {
+    margin: 40px auto 30px;
+  }
+  
+  .member_top_text {
+    margin: 20px auto;
+  }
+  .member_profile_top,
+  .member_profile_bottom {
+    width: 35%;
+    padding: 25px 10px 40px;
+    font-size: 16px;
+  }
+  
+  .member_profile {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+  }
+  .member_profile_top_img,
+  .member_profile_bottom_img {
+    width: 180px;
+  }
+
+  .member_profile_top {
+    margin-top: 15%;
+  }
+  .member_profile_bottom {
+    margin-top: 170px;
+  }
+
+  .question_logo {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    margin-top: 30px;
+  }
+  .question {
+    padding: 135px 0 50px;
+  }
+  .question_logo_title {
+    font-size: 28px;
+  }
+
+  .triangle {
+    bottom: -24%;
+  }
+
+  .answer_top_text, 
+  .answer_top_text_message {
+    font-size: 16px;
+    margin: 10px auto;
+    width: 65%;
+  }
+  .answer_picture {
+    width: 25%;
+  }
+  .answerBox {
+    width: 80%;
+    margin: 25px auto;
+  }
+  .answerMessage_right {
+    opacity: 0.8;
+  }
+
+  .learn_list_box {
+    width: 40%;
+  }
+  .learn_center {
+    display: flex;
+  }
+  .learn_list_title {
+    font-size: 18px;
+    padding-bottom: 50px;
+  }
+  .learn_list_text {
+    font-size: 16px;
+  }
+  .learn_list_box {
+    height: fit-content;
+  }
+  .learn_bottom_text {
+    font-size: 18px;
+    padding: 35px 0;
+  }
+
+  .flow_title_img {
+    display: block;
+    width: 1000px;
+    margin: auto;
+  }
+  .flow_contents {
+    padding-top: 30px;
+  }
+  .flow_contents_left {
+    display: block;
+    width: 30%;
+  }
+  .flow_contents_left_text {
+    font-size: 18px;
+  }
+  .flow_contents_left_img {
+    width: 80px;
+    height: 80px;
+  }
+  .flow_contents_list {
+    display: inline-flex;
+    padding: 40px 5px;
+  }
+  .flow_contents_right {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+  }
+  .flow_contents_right_text {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .flow_contents {
+    text-align: center;
+  }
+  .flow_contents_left_text_support {
+    width: 60%;
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .benefit {
+    padding: 30px 0;
+  }
+  .benefit_title-text {
+    width: 70%;
+  }
+  .benefit_meritList_top {
+    text-align: center;
+    font-size: 24px;
+    width: 40%;
+  }
+
+  .circle {
+    border-radius: 0%;
+    background-color: initial;
+  }
+
+  .benefit_meritList {
+    display: flex;
+    padding: 50px 0;
+  }
+
+  .meritBox_text {
+    color: black;
+    font-size: 14px;
+    margin: 25px auto;
+    
+  }
+  .meritBox {
+    background-color: white;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    display: block;
+    text-align: -webkit-center;
+    
+  }
+  .circle-text {
+    font-size: 24px;
+    width: max-content;
+    font-weight: initial;
+    margin: 10px auto;
+  }
+
+  .volunteer {
+    padding: 70px 0;
+  }
+  .volunteer_title-text,
+  .volunteer_value-text {
+    font-size: 16px;
+    width: 50%;
+  }
+  .volunteer_value_title {
+    font-size: 24px;
+  }
+
+  .message_title {
+    letter-spacing: 2px;
+    font-size: 26px;
+    opacity: 0.8;
+  }
+  .message_title-text {
+    width: max-content;
+  }
+  .message_content_img {
+    width: 250px;
+    height: 200px;
+  }
+  .message_content {
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+  }
+  .message_content_text {
+    padding: 0 20px 50px;
+  }
+  .message_content_text_founder {
+    margin: 0;
+  }
+
+  .form {
+    padding: 50px 0;
+  }
+  .form_title {
+    font-size: 28px;
+  }
+  .form_title-text {
+    font-size: 16px;
+  }
+
+  .frequency_title {
+    font-size: 26px;
+  }
+
+  dt {
+    font-size: 22px;
+    padding: 10px;
+  }
+  dd > P {
+    padding: 5px;
+  }
+
+  .page-top > img {
+    width: 70px;
+  }
+}
